@@ -1,0 +1,33 @@
+{
+  "name": "mlt-ts-starter",
+  "version": "0.0.1",
+  "description": "Starter project for use with mlt-ts",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist/index.bundle.js -L baseline -A datasets/iris.arff -E training",
+    "transpile": "webpack -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dansteren/mlt-ts-starter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dansteren/mlt-ts-starter/issues"
+  },
+  "homepage": "https://github.com/dansteren/mlt-ts-starter#readme",
+  "author": "Dan Steren <daniel.d.steren@gmail.com> (https://github.com/dansteren)",
+  "license": "MIT",
+  "keywords": [
+    "machine learning",
+    "typescript",
+    "byu"
+  ],
+  "dependencies": {
+    "@types/node": "^8.0.28",
+    "mlt-ts": "0.0.5",
+    "ts-loader": "^2.3.6",
+    "typescript": "^2.5.2",
+    "webpack": "^3.5.6"
+  }
+}
